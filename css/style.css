@@ -65,20 +65,37 @@ img{
 @media (max-width: 419px){
   *{
     margin: 0;
+    font-size: 13px;
   }
 
   .row{
-    max-width: 419px;
+    width: 100%;
     margin: 0;
+    padding: 3px 0;
   }
 
-  .row > .left, 
- .row > .central,
-  .row > .right{
-    float: 0;
-    
+  #lezioni .row > .left, 
+  #lezioni .row > .right,
+  #steps .row > .left, 
+  #steps .row > .central,
+  #steps .row > .right{
+    float: none;
+    margin: 0 auto 20px;
+    width: 100%;
   }
   
+  h1{
+    padding: 20px;
+    font-size: 25px;
+  }
+
+  h3{
+    font-size: 18px;
+  }
+
+  img{
+    height: 100px;
+  }
   
   .container.grey{
     background-color: #F2F2CD;
