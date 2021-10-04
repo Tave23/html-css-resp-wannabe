@@ -61,3 +61,28 @@ img{
 }
 
 /*PARTE RESPONSIVE*/
+
+@media (max-width: 419px){
+  *{
+    margin: 0;
+  }
+
+  .row{
+    max-width: 419px;
+    margin: 0;
+  }
+
+  .row > .left, 
+ .row > .central,
+  .row > .right{
+    float: 0;
+    
+  }
+  
+  
+  .container.grey{
+    background-color: #F2F2CD;
+    margin: none;
+  }
+
+}
